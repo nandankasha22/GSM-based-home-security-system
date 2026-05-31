@@ -91,13 +91,18 @@ Monitor        │
 
 ## 📂 Project Structure
 
-```text
+GSM-Based-Home-Security-System/
+│
+├── README.md
 ├── project_code.cpp
 ├── GSM_Home_Security_Report.pdf
-├── Circuit_Diagram
-├── Images
-├── README.md
-```
+│
+└── images/
+    ├── 1.jpg
+    ├── 2.jpg
+    ├── 3.jpg
+    ├── 4.jpg
+    └── 5.jpg
 
 ---
 
@@ -119,6 +124,42 @@ Monitor        │
 * Camera-Based Surveillance
 * Remote Arming and Disarming
 * Multiple Sensor Integration (Smoke, Gas, Fire, etc.)
+
+---
+## 📸 Project Outputs
+
+### 1. System Initialization
+The system powers on, initializes the GSM module, and sends a registration SMS to the configured mobile number.
+
+![System Initialization](images/1.jpg)
+
+---
+
+### 2. System Ready State
+The security system is active and continuously monitoring the environment for motion.
+
+![Ready State](images/2.jpg)
+
+---
+
+### 3. No Motion Detected
+When no movement is detected, the LCD displays **"INTRUDER NOT FOUND"** and the system remains in monitoring mode.
+
+![No Motion Detected](images/3.jpg)
+
+---
+
+### 4. Motion Detected – SMS Alert
+Upon detecting motion, the system triggers an alert and sends an SMS notification to the registered mobile number.
+
+![SMS Alert](images/4.jpg)
+
+---
+
+### 5. Motion Detected – Phone Call Alert
+The GSM module automatically places a phone call to the registered user for immediate notification.
+
+![Phone Call Alert](images/5.jpg)
 
 ---
 
