@@ -65,7 +65,7 @@ Serial.write(0x1A);delay(10000);
 lcd.clear();lcd.print("sms sent.....");delay(1000);
 lcd.clear();lcd.print("AT");Serial.print("AT\r\n");delay(1000);
 lcd.clear();lcd.print("ATE0");Serial.print("ATE0\r\n");delay(1000);
-lcd.clear();lcd.print("Calling...");Serial.println("ATD/YOUR PHONE NUMBER;");delay(10000);delay(10000);
+lcd.clear();lcd.print("Calling...");Serial.println("ATD /YOURPHONENUMBER/;");delay(10000);delay(10000);
 Serial.println("ATH");delay(1000);
 lcd.clear();lcd.print("READY TO USE.....");
  
